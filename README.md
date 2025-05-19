@@ -20,9 +20,22 @@ A simple Tampermonkey user script that adds a convenient rotate button to the Ko
 
 ### 2. Install the Script
 - Click the link below to install the script directly from GitHub:
-- [**Install Komga Rotate Button**](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/komga-rotate/main/komga-rotate.user.js)
+- [**Install Komga Rotate Button**](https://raw.githubusercontent.com/LuTang-Terrence/komga-rotatebutton/main/komga-rotatebutton.js) (copy paste to Tampermonkey extension "Create a new script")
 
 ### 3. Update the Match URL
 - Make sure to replace `YOUR_KOMGA_DOMAIN` in the script’s **@match** line with your actual Komga server URL:
 ```javascript
 // @match https://YOUR_KOMGA_DOMAIN/*
+```
+---
+
+## 🖼️ Screenshots
+### Original Image (notice rotation button on top right corner)
+![Before](./screenshots/Before.png)
+
+### After clicking rotation button once
+![After](./screenshots/After.png)
+
+---
+## 🌟 Acknowledgments
+Inspired by https://linux.do/t/topic/529278
